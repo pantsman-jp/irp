@@ -8,3 +8,6 @@ actix-rt = "2.11.0"
 actix-web = "4.13.0"
 askama = "0.16.0"
 thiserror = "2.0.18"
+rusqlite = { version = "0.23", features=["bundled"] }
+r2d2 = "0.8.10"
+r2d2_sqlite = "0.34.0"
